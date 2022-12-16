@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mainCon {
+  display: flex;
+  flex-direction: column;
+  background-color: #150b3e;
+  border-radius: 15px;
+  width: 40vw;
+  padding: 20px;
+}
+.nameCon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nameIcon {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 17px 30px;
+  border-radius: 100px;
+}
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  margin-left: 30px;
+}
+.balanceCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.balanceHeading {
+  font-size: 30px;
+  color: #585076;
+}
+.balance {
+  font-size: 34px;
+  color: #d4d2db;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.rupees {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #585076;
+}
+.withdraw {
+  font-size: 30px;
+  color: #d4d2db;
+  margin-bottom: 5px;
+}
+.choose {
+  font-size: 30px;
+  color: #585076;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.listCon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0px;
+}
